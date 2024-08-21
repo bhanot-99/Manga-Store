@@ -1,0 +1,38 @@
+[
+    {
+      "image": "/Ecommmerce/images/B.jpg",
+      "title": "Bleach"
+    },
+    {
+      "image": "images/BC.jpg",
+      "title": "Black Clover"
+    },
+    {
+      "image": "images/DB.jpg",
+      "title": "Dragon Ball"
+    },
+    {
+      "image": "images/DN.jpg",
+      "title": "Death Note"
+    },
+    {
+      "image": "images/DS.jpg",
+      "title": "Demon Slayer"
+    },
+    {
+      "image": "images/FF.jpg",
+      "title": "Fire Force"
+    },
+    {
+      "image": "images/MDUD.jpg",
+      "title": "My Dress-Up Darling"
+    },
+    {
+      "image": "images/N.jpg",
+      "title": "Naruto"
+    },
+    {
+      "image": "images/OP.jpg",
+      "title": "One Piece"
+    }
+  ]

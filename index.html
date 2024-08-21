@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manga Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Manga Store Logo" />
+      </div>
+      <div class="anime-quote">
+        "The world isn't perfect. But it's there for us, doing the best it
+        can.... ,<br />That's what makes it so damn beautiful." - Roy Mustang
+        (Fullmetal Alchemist)
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <form>
+              <input type="search" placeholder="Search..." />
+              <button type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <button id="cart-button" class="cart-button">
+          Cart (<span id="cart-count">0</span>)
+        </button>
+
+        <div id="cart-popup" class="cart-popup">
+          <h2>Cart Contents</h2>
+          <ul id="cart-list">
+          </ul>
+          <button id="checkout-button">Checkout</button>
+        </div>
+      </section>
+
+      <section class="manga-section">
+        <h2>Popular Mangas</h2>
+        <div class="manga-grid">
+          <!-- manga cards will be generated here -->
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+</html>
